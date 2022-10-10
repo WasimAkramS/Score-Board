@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Digital;
+    src: url(fonts/CursedTimerULiL.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    border-radius: .7em;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+}
+
+p {
+    min-width: 175px;
+    height: 120px;
+    background-color: black;
+    font-family: 'Digital';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7rem;
+    line-height: 127px;
+    padding-top: .2em;
+    color: #F94F6D;
+    margin: .4em;
+}
+
+button {
+    font-family: 'Digital';
+    font-size: 1.6rem;
+    padding: .4em;
+    margin: 0 .2em;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 3px solid #9AABD8;;
+    border-radius: .2em;
+}
